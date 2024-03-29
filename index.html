@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>BtsquidX</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/BTSquidXCoin76.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+        <a href="index.html"><img src="assets/img/BTSquidXCoin200.png" alt="" class="img-fluid"></a>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul id="menu">
+          <li><a class="nav-link scrollto active" href="#hero">airdrop / buy token</a></li>
+          <li><a class="nav-link scrollto active" href="#about">our project</a></li>
+          <li><a class="nav-link scrollto" href="#playgame">play game</a></li>
+          <li><a class="nav-link scrollto" href="#tokeninfo">token info</a></li>
+          <li><a class="nav-link scrollto " href="#roadmap">roadmap</a></li>
+          <li><a class="nav-link scrollto " href="#team">team</a></li>
+          <li><a class="nav-link scrollto" href="#Partners">Partners</a></li>
+          <li><a class="nav-link scrollto" href="assets/img/BTSquidX(Eng).pdf" target="_blank">whitepaper</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container">
+      <a href="index.html" class="hero-logo" data-aos="zoom-in"><img src="assets/img/BTSquidXCoin200.png" alt=""></a>
+      <h1 data-aos="zoom-in">Welcome to the offcial webpage of BTSquidX COIN</h1>
+      <h2 data-aos="fade-up">Airdrop & IDO </h2>
+      <div style="float:left;">
+        <div class="row mt-4" id="presale">
+          <!--Adrop-->
+          <div class="col-lg-6 col-md-6 mb-lg-0 mb-4">
+            <div class="card bg-success text-white">
+              <div class="card-body p-3">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="d-flex flex-column h-100">
+                      <h2 class="font-weight-bolder mb-4">Buy IDO Orders</h2>
+                      <div class="input-group has-success mb-3">
+                        <span class="input-group-text">Enter BNB Orders</span>
+                        <input type="number" id="buyAmount" value="0" min="0" class="form-control form-control-alternative" size="10">
+                        <span class="input-group-text">BNB</span>
+
+                      </div>
+                      <div>
+                        <p>You get: <span id="get">0</span><span class="tokenSymbol">BTX</span></p>
+                        <p><button id="buyBtn" style="text-align: center" class="btn btn-primary btn-auto btn-md">Buy</button></p>
+                      </div>
+
+                      <div>
+                        <center>
+                          <input style="display: none;" id="buyainput" type="text" class="input-bordered" required="required" placeholder="0.001" value="0.001">
+                          <p><button id="addToken" style="text-align: center" class="btn btn-primary btn-auto btn-md" onclick="addToWallet()" >Add to Metamask</button></p>
+                          <!-- <a href="javascript:void(0)" id="airbtn" onclick="addToWallet()" class="btn btn-primary btn-auto btn-md">Add Token to Wallet</a> -->
+                        </center>
+                      </div>
+                      <div class="mt-6">
+                        <p class="text-info">
+                          (*) Rate Sale: 0.01 BNB = 10.000 BTS<br />
+                        </p>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Invite By-->
+          <!--Adrop-->
+          <div class="col-lg-6 col-md-6 mb-lg-0 mb-4">
+            <div class="card bg-success text-white">
+              <div class="card-body p-3">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="d-flex flex-column h-100">
+                      <h2 class="font-weight-bolder mb-4">Buy IDO Orders</h2>
+                      <div class="input-group has-success mb-3">
+                        <span class="input-group-text">Enter BNB Orders</span>
+                        <input type="number" id="buyAmount" value="0" min="0" class="form-control form-control-alternative" size="10">
+                        <span class="input-group-text">BNB</span>
+
+                      </div>
+                      <div>
+                        <p>You get: <span id="get">0</span><span class="tokenSymbol">BTX</span></p>
+                        <p><button id="buyBtn" style="text-align: center" class="btn btn-primary btn-auto btn-md">Buy</button></p>
+                      </div>
+
+                      <div>
+                        <center>
+                          <input style="display: none;" id="buyainput" type="text" class="input-bordered" required="required" placeholder="0.001" value="0.001">
+                          <p><button id="addToken" style="text-align: center" class="btn btn-primary btn-auto btn-md" onclick="addToWallet()" >Add to Metamask</button></p>
+                          <!-- <a href="javascript:void(0)" id="airbtn" onclick="addToWallet()" class="btn btn-primary btn-auto btn-md">Add Token to Wallet</a> -->
+                        </center>
+                      </div>
+                      <div class="mt-6">
+                        <p class="text-info">
+                          (*) Rate Sale: 0.01 BNB = 10.000 BTS<br />
+                        </p>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Invite By-->
+
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+
+
+  <main id="main">
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2 style="color: white;">our project</h2>
+          <p style="color: yellow;">Mars pioneer project</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-right">
+            <div class="image">
+              <img src="assets/img/rocket4.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-left">
+            <div class="content pt-4 pt-lg-0 pl-0 pl-lg-3 ">
+              <h3 style="color: white;">As the first project of space exploration to solve the global environmental crisis, we launch a rocket targeting Mars.</h3>
+              <br><br><br>
+              <h3 style="color: white;">The pioneers who arrive on Mars will occupy the territory according to their abilities.</h3>
+              <br><br><br>
+              <h3 style="color: white;">PLAY TO EARN</h3>
+              <br><br>
+              <h3 style="color: white;">NFT Market</h3>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+    <!-- ======= playgame Section ======= -->
+    <section id="playgame" class="services">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>play game</h2>
+          <p>The first step to pioneering Mars is to choose an NFT rocket that will take you to Mars</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 order-2 order-lg-1">
+            <div class="icon-box mt-5 mt-lg-0" data-aos="fade-up">
+              <i class="bx bxs-rocket"></i>
+              <h4 style="color: white;">ROKET</h4>
+              <p>NFT rockets have different values based on scarcity and performance.</p>
+            </div>
+            <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="100">
+              <i class="bx bxs-bolt"></i>
+              <h4 style="color: white;">ENGINE</h4>
+              <p>Upgrade the rocket's engine, wings, etc. to get to Mars quickly</p>
+            </div>
+            <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="200">
+              <i class="bx bxl-react"></i>
+              <h4 style="color: white;">BATTERY</h4>
+              <p>BATTERY with high performance can get more COIN and ITEM</p>
+            </div>
+            <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="300">
+              <i class="bx bx-planet"></i>
+              <h4 style="color: white;">MARS</h4>
+              <p>The faster you get to Mars, the more land you can occupy</p>
+            </div>
+          </div>
+          <div class="col-lg-3 order-1" data-aos="fade-left">
+            <div class="image">
+              <img src="assets/img/squid_coin_dozer.gif" class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>nft characters</h2>
+          <p>Use various nft characters to mine BTS coin and create your own space on Mars</p>
+          <p>You can trade at a higher price later through the NFT market by upgrading your character.</p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">rocket</li>
+              <li data-filter=".filter-card">engine</li>
+              <li data-filter=".filter-web">mars mining squid</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-3 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img style="display:block; margin:auto;" src="assets/img/portfolio/rocket1.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Rocket common</h4>
+                <p>rocket</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-3 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img style="display:block; margin:auto;" src="assets/img/portfolio/squid_1.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Squid common</h4>
+                <p>squid</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-3 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img style="display:block; margin:auto;" src="assets/img/portfolio/rocket2.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Rocket lair</h4>
+                <p>rocket</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-3 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img style="display:block; margin:auto;" src="assets/img/portfolio/engine2.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Engine lair</h4>
+                <p>engine</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-3 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img style="display:block; margin:auto;" src="assets/img/portfolio/squid_2.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Squid lair</h4>
+                <p>squid</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-3 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img style="display:block; margin:auto;" src="assets/img/portfolio/rocket3.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Super rocket </h4>
+                <p>rocket</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-3 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img style="display:block; margin:auto;" src="assets/img/portfolio/engine1.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Engine common</h4>
+                <p>engine</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-3 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img style="display:block; margin:auto;" src="assets/img/portfolio/engine3.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Super engine</h4>
+                <p>engine</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-3 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img style="display:block; margin:auto;" src="assets/img/portfolio/super_tuna.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Super squid </h4>
+                <p>squid</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= tokeninfo ======= -->
+    <section id="tokeninfo" class="featured">
+      <div id="tokeninfo" class="container">
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-right">
+            <div class="tab-content">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Featured Section -->
+
+    <!-- ======= roadmap ======= -->
+    <section id="roadmap" class="why-us">
+      <div class="container-fluid">
+
+        <div class="row">
+
+
+        </div>
+
+      </div>
+    </section><!-- End roadmap Section -->
+
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Team</h2>
+          <p>The best professional blockchain experts, game developers and designers have teamed up</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="zoom-in">
+              <div class="member-img">
+                <img src="assets/img/team/team1.png" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Henry</h4>
+                <span>CEO</span>
+                <p>Funding and company management</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="zoom-in" data-aos-delay="100">
+              <div class="member-img">
+                <img src="assets/img/team/team2.png" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Aaliyah</h4>
+                <span>Product Manager & head designer</span>
+                <p>Game design and development</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="zoom-in" data-aos-delay="200">
+              <div class="member-img">
+                <img src="assets/img/team/team3.png" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Frederick</h4>
+                <span>CTO</span>
+                <p>Supervise all management support activities to effectively acquire, manage, and utilize technology</p>
+                <p>Supports both technical aspects of blockchain and NFT</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+    <!-- ======= Clients Section ======= -->
+    <section id="Partners" class="clients">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-2 col-md-4 col-12" data-aos="zoom-in">
+            <a href="https://www.binance.com/" target="_blank">
+              <img style="width:100%" src="assets/img/clients/binance.png" class="img-fluid" alt=""></a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-12" data-aos="zoom-in" data-aos-delay="100">
+            <a href="https://coinmarketcap.com/" target="_blank">
+              <img style="width:100%" src="assets/img/clients/coinmarket.png" class="img-fluid" alt=""></a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-12" data-aos="zoom-in" data-aos-delay="200">
+            <a href="https://daomaker.com/" target="_blank">
+              <img style="width:100%" src="assets/img/clients/daomaker.png" class="img-fluid" alt=""></a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-12" data-aos="zoom-in" data-aos-delay="300">
+            <a href="https://metamask.io/" target="_blank">
+              <img style="width:100%" src="assets/img/clients/metamask.png" class="img-fluid" alt=""></a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-12" data-aos="zoom-in" data-aos-delay="400">
+            <a href="https://opensea.io/" target="_blank">
+              <img style="width:100%" src="assets/img/clients/opensea.png" class="img-fluid" alt=""></a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-12" data-aos="zoom-in" data-aos-delay="500">
+            <a href="https://pancakeswap.finance/" target="_blank">
+              <img style="width:100%" src="assets/img/clients/pancake.png" class="img-fluid" alt=""></a>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Partners Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+
+      <div class="container" style="padding:50px;">
+
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <a href="#header" class="scrollto footer-logo"><img src="assets/img/BTSquidXCoinIcon2.png" alt=""></a>
+            <h3>BTSquidX</h3>
+          </div>
+        </div>
+        <div class="social-links">
+          <a href="https://twitter.com/BTSquidX" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="https://www.facebook.com/BTSquidX.online" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="https://t.me/BTSquidX" target="_blank" class="instagram"><i class="bx bxl-telegram"></i></a>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container footer-bottom clearfix">
+      <div class="copyright">
+        &copy; Copyright <strong><span>BTSquidX</span></strong>. All Rights Reserved
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <!-- metamask연결 -->
+  <script>
+
+    function addToWallet() {
+
+
+          web3.currentProvider.sendAsync({
+
+            method: 'wallet_watchAsset',
+
+            params: {
+
+                'type': 'ERC20',
+
+                'options': {
+
+                    'address': '0x05ad8280566ee7fcab3de2219cdefaae07a2b027',
+
+                    'symbol': 'GRS',
+
+                    'decimals': '18',
+
+                    'image': 'http://leeaf2.cafe24.com/btsquidx/assets/img/greens_ambulette.png',
+
+                },
+
+            },
+
+            id: Math.round(Math.random() * 100000)
+
+        }, function (err, data) {
+
+            if (!err) {
+
+                if (data.result) {
+
+                    console.log('Token added');
+
+                    Swal.fire({
+
+                    title: 'Token Added',
+
+                    icon: 'success',
+
+                    html: 'Token added to your wallet.',
+
+                    showCloseButton: true,
+
+                    showCancelButton: true,
+
+                    focusConfirm: false,
+
+                    reverseButtons: true,
+
+                    focusCancel: true,
+
+                    cancelButtonText: 'Exit',
+
+                    })
+
+                } else {
+
+                    console.log(data);
+
+                    console.log('Some error');
+
+                }
+
+            } else {
+
+                console.log(err.message);
+
+            }
+
+        });
+
+}
+</script>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="https://www.btsquidx.online/assets/js/web3.js"></script>
+  <script src="https://www.btsquidx.online/assets/js/pappicc.js"></script>
+  <script src="https://www.btsquidx.online/assets/js/crypto.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+
+
+</body>
+
+</html>
